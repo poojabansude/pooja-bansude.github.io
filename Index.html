@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Pooja Bansude — freelance web designer creating modern, responsive websites for small businesses and personal brands.">
+<title>Pooja Bansude | Freelance Web Designer</title>
+<style>
+:root{--ink:#252326;--muted:#6e666b;--paper:#fffdfb;--soft:#f4ebe6;--line:#e8dfdb;--card:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.65}
+nav{position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:18px 7%;background:#fffdfbf2;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.logo{font-weight:800;font-size:21px}
+nav a{margin-left:24px;color:var(--ink);text-decoration:none;font-size:14px}
+.hero{padding:105px 7% 95px;background:linear-gradient(135deg,#f4e8e2,#fbf5ef)}
+.eyebrow{text-transform:uppercase;letter-spacing:2.5px;font-size:12px;font-weight:700;color:#76676e}
+.hero h1{font-size:clamp(44px,7vw,82px);line-height:1.02;max-width:900px;margin:18px 0}
+.hero h1 em{font-style:normal}
+.hero p{font-size:18px;color:var(--muted);max-width:680px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-block;padding:13px 23px;border-radius:30px;text-decoration:none;font-weight:700;border:1px solid var(--ink)}
+.btn.primary{background:var(--ink);color:white}
+.btn.secondary{color:var(--ink);background:transparent}
+section{padding:82px 7%;max-width:1200px;margin:auto}
+h2{font-size:38px;line-height:1.15;margin-bottom:14px}
+.intro{color:var(--muted);max-width:700px;margin-bottom:35px}
+.about-grid{display:grid;grid-template-columns:1.4fr .8fr;gap:40px;align-items:start}
+.quick{background:var(--soft);padding:28px;border-radius:22px}
+.quick div{padding:12px 0;border-bottom:1px solid #ddd1ca}
+.quick div:last-child{border-bottom:0}
+.skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:25px}
+.skill{padding:9px 15px;border:1px solid var(--line);border-radius:30px;background:white;font-size:14px}
+.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.project{background:var(--card);border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:0 10px 30px #0000000a}
+.project-img{height:190px;background:linear-gradient(135deg,#ead9de,#eee1d3);display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;font-weight:800;font-size:20px}
+.project-body{padding:24px}
+.project-body p{color:var(--muted);font-size:14px;margin:9px 0 18px}
+.tag{display:inline-block;font-size:12px;padding:6px 10px;border-radius:15px;background:var(--soft)}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.service{padding:30px;background:var(--soft);border-radius:22px}
+.service p{color:var(--muted);margin-top:8px}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+.step{border-top:2px solid var(--ink);padding-top:18px}
+.step b{font-size:13px}
+.step h3{margin:8px 0}
+.step p{font-size:14px;color:var(--muted)}
+.contact{max-width:none;background:var(--ink);color:white;text-align:center}
+.contact p{color:#ddd;max-width:620px;margin:0 auto}
+.contact .btn{margin-top:25px}
+footer{text-align:center;padding:25px;background:var(--ink);color:#aaa;border-top:1px solid #444;font-size:13px}
+@media(max-width:800px){
+nav{flex-direction:column;gap:12px}
+nav a{margin:0 7px}
+.about-grid,.projects,.services,.process{grid-template-columns:1fr}
+.hero{padding-top:80px}
+section{padding-top:65px;padding-bottom:65px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Pooja Bansude</div>
+  <div>
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#services">Services</a>
+    <a href="#process">Process</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="eyebrow">Freelance Web Designer</div>
+  <h1>Websites that make small businesses look <em>professional online.</em></h1>
+  <p>I create clean, modern and mobile-friendly websites for local businesses, small brands and personal projects using web technologies and AI-assisted tools.</p>
+  <div class="actions">
+    <a class="btn primary" href="#work">View My Work</a>
+    <a class="btn secondary" href="#contact">Start a Project</a>
+  </div>
+</header>
+
+<section id="about">
+  <div class="about-grid">
+    <div>
+      <h2>Hi, I'm Pooja.</h2>
+      <p class="intro">I'm a Computer Engineering student and aspiring freelance web designer. I enjoy turning simple business ideas into clean, useful and responsive websites.</p>
+      <p class="intro">My approach is simple: understand what a business needs, create a clear design, make it work beautifully on phones and computers, and keep the experience easy for customers.</p>
+      <div class="skills">
+        <span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">JavaScript</span>
+        <span class="skill">Responsive Design</span><span class="skill">AI-Assisted Development</span>
+        <span class="skill">Website Design</span>
+      </div>
+    </div>
+    <aside class="quick">
+      <div><strong>Based in</strong><br>Pune, India</div>
+      <div><strong>Focus</strong><br>Small-business websites</div>
+      <div><strong>Availability</strong><br>Open to freelance projects</div>
+    </aside>
+  </div>
+</section>
+
+<section id="work">
+  <h2>Selected Work</h2>
+  <p class="intro">A growing collection of practice and client-ready website concepts. Practice projects are clearly presented as demos.</p>
+  <div class="projects">
+    <article class="project">
+      <div class="project-img">Glow & Grace<br>Studio</div>
+      <div class="project-body">
+        <h3>Beauty Salon Website</h3>
+        <p>Elegant local-business concept with services, gallery, opening hours and contact sections.</p>
+        <span class="tag">Demo Project</span>
+      </div>
+    </article>
+    <article class="project">
+      <div class="project-img">Café<br>Website Concept</div>
+      <div class="project-body">
+        <h3>Café Website</h3>
+        <p>Planned concept for a café featuring menu highlights, story, location and customer contact.</p>
+        <span class="tag">Coming Soon</span>
+      </div>
+    </article>
+    <article class="project">
+      <div class="project-img">Photography<br>Studio</div>
+      <div class="project-body">
+        <h3>Photography Portfolio</h3>
+        <p>Planned portfolio concept for photographers with galleries, services and inquiry sections.</p>
+        <span class="tag">Coming Soon</span>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="services">
+  <h2>What I Can Build</h2>
+  <p class="intro">Simple, professional web solutions designed around the business and its customers.</p>
+  <div class="services">
+    <div class="service"><h3>Business Websites</h3><p>Professional websites for salons, cafés, tutors, photographers, local services and small brands.</p></div>
+    <div class="service"><h3>Landing Pages</h3><p>Focused pages for a service, campaign, product or personal brand.</p></div>
+    <div class="service"><h3>Website Updates</h3><p>Basic layout, content and design improvements for existing websites.</p></div>
+  </div>
+</section>
+
+<section id="process">
+  <h2>My Process</h2>
+  <p class="intro">A straightforward process from first conversation to a polished website.</p>
+  <div class="process">
+    <div class="step"><b>01</b><h3>Understand</h3><p>Learn about the business, audience, goals and required pages.</p></div>
+    <div class="step"><b>02</b><h3>Design</h3><p>Create a clear visual direction and responsive layout.</p></div>
+    <div class="step"><b>03</b><h3>Build</h3><p>Develop, test and refine the website across devices.</p></div>
+    <div class="step"><b>04</b><h3>Launch</h3><p>Prepare the final website and help with publishing and basic updates.</p></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Have a project in mind?</h2>
+  <p>Tell me what you need and let's discuss a simple website solution for your business.</p>
+  <a class="btn primary" href="mailto:your-email@example.com">Contact Pooja</a>
+</section>
+
+<footer>© 2026 Pooja Bansude · Freelance Web Designer</footer>
+
+</body>
+</html>
